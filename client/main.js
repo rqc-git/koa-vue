@@ -9,7 +9,6 @@ import Viewer from 'v-viewer'
 Vue.config.productionTip = false
 Vue.use(Viewer)
 
-/* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
