@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <viewer :images="images">
+    <!-- <viewer :images="images">
       <img v-for="src in images" :src="src" :key="src" style="height:60px;">
-    </viewer>
+    </viewer> -->
     <router-view/>
   </div>
 </template>
@@ -13,7 +12,6 @@ export default {
   name: 'App',
   data () {
     return {
-      images: [ 'https://piccdn.igetget.com/img/201804/26/201804261404307949184165.png' ]
     }
   }
 }
